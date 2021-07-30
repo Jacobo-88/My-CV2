@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="herram/styles.css">
+        <!-- ===== favicon ===== -->
+        <link  rel = "apple-touch-icon"  tamaños = "57x57"  href = "herram/favicos/apple-icon-57x57.png" > 
+        <link  rel = "apple-touch-icon"  tamaños = "60x60"  href = "herram/favicos/ apple -icon-60x60.png " > 
+        <link  rel = " apple-touch-icon "  tamaños = " 72x72 "  href = " herram/favicos/apple-icon-72x72.png " > 
+        <link  rel = " apple-touch-icon "  tamaños = "76x76"  href = "herram/favicos/icono-apple-76x76.png" > 
+        <link  rel = "apple-touch-icon "  tamaños = " 114x114 "  href = " herram/favicos/apple-icon-114x114.png "> 
+        <link  rel = "apple-touch-icon"  tamaños = "120x120"  href = "herram/favicos/apple-icon-120x120.png" > 
+        <link  rel = "apple-touch-icon"  tamaños = "144x144"  href = "herram/favicos/ apple-icon-144x144.png " > 
+        <link  rel = " apple-touch-icon "  tamaños = " 152x152 "  href = " herram/favicos/apple-icon-152x152.png " > 
+        <link  rel = "  tamaños de apple-touch-icon " = "180x180"  href = "herram/favicos/ icono-apple-180x180.png" > 
+        <enlace  rel = "icono"  tipo = "imagen / png"  tamaños = "192x192"  href = "herram/favicos/android-icon-192x192.png" > 
+        <link  rel = "icon"  type = "image / png"  tamaños = "32x32"  href = "herram/favicos/favicon-32x32.png" > 
+        <link  rel = "icon"  type = "image / png"  tamaños = "96x96"  href = "herram/favicos/favicon-96x96.png" > 
+        <link  rel = "icon"  type = "image / png"  tamaños = "16x16"  href = "herram/favicos/ favicon-16x16. png " > 
+        <link  rel = " manifiesto " href = "herram/favicos/manifest.json" > 
+        <meta  nombre ="msapplication-TileColor"  content = "#ffffff" > 
+        <meta  name = "msapplication-TileImage"  content = "/ms-icon-144x144.png" > 
+        <meta  name = "theme-color"  content = "#ffffff" >
+
+
+        <title>MY CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Jacobo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img loading="lazy" src="herram/img/Jacob 2.png" alt="" class="home__img">
+
+
+                                <h1 class="home__title">JACOBO <b>TOLENTINO</b></h1>
+                                <h3 class="home__profession">Web Developer</h3>
+
+                                <!-- Button to download your CV -->
+                                <div>
+                                    <a download="" href="herram/pdf/myResume.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Country: MEXICO
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-home-circle home__icon' ></i> Mexico City
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bxl-whatsapp home__icon' ></i> 55-67-89-26-54
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/mwlite/in/jacobo-tolentino-serrano-6bb0761b8" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> LINKEDIN
+                            </a>
+                            <a href="https://www.facebook.com/TOLSER14" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon'></i> FACEBOOK
+                            </a>
+                            <a href="https://mobile.twitter.com/codetolser" target="_blank" class="social__link">
+                                <i class='bx bxl-twitter social__icon'></i> @CodeTolser
+                            </a>
+                        </div>
+                    </section>
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                       <h2 class="section-title">PROFILE</h2>
+                       <p class="profile__description">I am a person, professionally dedicated to my work to be able to bring my acquired knowledge to be able to apply and solve any problem presented in my growth, with extensive knowledge and gain experience for better work and professional performance.</p>
+                    </section>
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">EDUCATION</h2>
+
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">WEB DEVELOPMENT COURSE</h3>
+                                    <span class="education__studies">Online courses completed</span>
+                                    <span class="education__year">2020 - 2021</span>
+                                </div>
+                            </div>
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">WEB DEVELOPER</h3>
+                                    <span class="education__studies">Online courses completed</span>
+                                    <span class="education__year">2020 - 2021</span>
+                                </div>
+                            </div>
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                               <!-- <span class="education__line"></span>-->
+                                </div>
+
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">UI/UX</h3>
+                                    <span class="education__studies">Online courses completed</span>
+                                    <span class="education__year">2020 - 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--========== References  ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">REFERENCES</h2>
+                        <div class="references__container bd-grid">
+                            <div class="references__content">
+                                <div class="references__time">
+                                    <span class="references__rounder"></span>
+                                    <!--     <span class="references__line"></span>-->
+                                </div>
+                                <div class="references__data bd-grid">
+                                    <h3 class="references__title">Carlos P. School Principal</h3>
+                                    <span class="references__studies">Phone : 5551802180</span>
+                                    <span class="references__year">Email: user@email.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>       
+                </div>
+                <div class="resume__right">
+                    <!--========== EXPERIENCE =======--> 
+                    <section class="experience section" id="experience">
+                       <h2 class="section-title">EXPERIENCE</h2>
+
+                       <div class="experience__container bd-grid">
+                           <div class="experience__content">
+                               <div class="experience__time">
+                                   <span class="experience__rounder"></span>
+                                   <span class="experience__line"></span>
+                               </div>
+
+
+                               <div class="experience__data bd-grid">
+                                   <h3 class="experience__title">INTERNSHIP IN WEB DEVELOPMENT FREELANCER</h3>
+                                   <span class="experience__conpany">From 2020 - 2021 | tech soft</span>
+                                   <p class="experience__description">Carrying out practical projects in the development of pages, portfolios, games, etc.  For anyone who will request it by applying my skills.</p>
+                               </div>
+                           </div>
+                           <div class="experience__content">
+                               <div class="experience__time">
+                                   <span class="experience__rounder"></span>
+                                   <span class="experience__line"></span>
+                               </div>
+
+                               <div class="experience__data bd-grid">
+                                   <h3 class="experience__title">WEB APPLICATION DEVELOPER FREELANCER</h3>
+                                   <span class="experience__conpany">From 2020 - 2021 | tech soft</span>
+                                   <p class="experience__description">Carrying out practical projects web applications for personal use or when requested personally.</p>
+                               </div>
+                           </div>
+                           <div class="experience__content">
+                               <div class="experience__time">
+                                   <span class="experience__rounder"></span>
+                                   <!-- <span class="experience__line"></span>-->
+                               </div>
+
+                                <div>
+                                    <h3 class="experience__title">MY PORTFOLIO</h3>
+                                    <span class="experience__conpany">From 2020 - 2021 | tech soft</span>
+                                    <p class="experience__description">You can check my skills in the link https://jacobo-88.github.io/</p>
+                                </div>
+                           </div>
+                       </div>
+                    </section>
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                       <h2 class="section-title">CERTIFICATES</h2>
+
+
+                       <div class="certificate__container bd-grid">
+                           <div class="certificate__content">
+                               <h3 class="certificate__title">Certified for compliance in the work area </h3>
+                               <p class="certificate__description">Certified for compliance in the work area (2020)</p>
+                           </div>
+
+                           <div class="certificate__content">
+                               <h3 class="certificate__title">Certificate of attendance on computer technology</h3>
+                               <p class="certificate__description">Certified for compliance in the work area (2020)</p>
+                           </div>
+
+                           <div class="certificate__content">
+                               <h3 class="certificate__title">Recognition for productivity excellence during the year (2020)</h3>
+                               <p class="certificate__description">Certified for compliance in the work area (2020)</p>
+                           </div>
+                       </div>
+                    </section>
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                       <h2 class="section-title">LANGUAGES</h2>
+                       <div class="languages__container">
+                           <ul class="languages__content bd-grid">
+                               <li class="languages__name">
+                                   <span class="languages__circle"></span>Spannish
+                               </li>
+                               <li class="languages__name">
+                                   <span class="languages__circle"></span>English
+                               </li>
+                               <li class="languages__name">
+                                   <span class="languages__circle"></span>" -?- "
+                               </li>
+                           </ul>
+                       </div>
+                    </section>
+                    <!--========== Skills ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">SKILLS</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data"><h3>FRONTEND</h3>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Javascrip
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Node.js
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data"><h3>BACKEND</h3>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Phyton
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Jango
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Servers
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Git
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data"><h3>SPECIFIC</h3>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>ApiRest
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Microservices
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Docker
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Databace
+                                </li>
+                            </ul>
+                        </div>   
+                    </section>
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                       <h2 class="section-title">INTERESTS</h2>
+                       <div class="interests__container bd-grid">
+                           <div class="interests__content">
+                               <i class='bx bx-headphone interests__icon' ></i>
+                               <span class="interests__name">Music</span>
+                           </div>
+
+                           <div class="interests__content">
+                               <i class='bx bxs-plane-alt interests__icon' ></i>
+                               <span class="interests__name">Travel</span>
+                           </div>
+
+                           <div class="interests__content">
+                               <i class='bx bx-book interests__icon' ></i>
+                               <span class="interests__name">Read</span>
+                           </div>
+
+                           <div class="interests__content">
+                               <i class='bx bx-dumbbell interests__icon' ></i>
+                               <span class="interests__name">Exercise</span>
+                           </div>
+                       </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="herram/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="herram/js/main.js"></script>
+    </body>
+</html>
